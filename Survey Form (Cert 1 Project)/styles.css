@@ -1,0 +1,40 @@
+body {
+    /* background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"); */
+    font-family: sans-serif;
+    padding: 20px;
+    /*color: white;*/
+    text-align: center;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.survey {
+    width: 80%;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: rgb(14, 14, 98);
+    margin: auto;
+    text-align: left;
+    color: white;
+} 
+
+input {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+fieldset {
+    border: none;
+}
+
+.label, .select {
+    width: 100%;
+    display: block
+}
+
+.radio {
+    width: 25%;
+}

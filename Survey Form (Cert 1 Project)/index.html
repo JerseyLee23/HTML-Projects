@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">M & M Gaming Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our store.</p>
+    <main class="survey">
+    <form id="survey-form">
+      <div class="input">
+        <label for="name">Name<input id="name" name="name" type="text" placeholder="Enter your name" required /></label>
+        <label for="email">Email<input id="Email" name="email" type="email" placeholder="Enter your Email" required /></label>
+        <label for="number">Age<input id="age" name="number" type="number" min="10" max="90" placeholder="Age" /></label>
+      </div>
+      <div>
+        <label class="label" for="dropdown">Which option best describes your current status?
+          <select class="select" id="dropdown" name="dropdown">
+            <option value="">(Select current status)</option>
+            <option value="1">Student</option>
+            <option value="2">Part Time Job</option>
+            <option value="3">Full Time Job</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label class="label">How do you game?</label>
+        <label class="radio" for="board"><input id="board" type="radio" name="recommend">Board Games</label>
+        <label class="radio" for="console"><input id="console" type="radio" name="recommend">Console</label>
+        <label class="radio" for="pc"><input id="pc" type="radio" name="recommend">PC</label>
+        <label class="radio" for="all"><input id="all" type="radio" name="recommend">All the above</label>
+      </div>
+    </form>
+  </main>
+  </body>
+</html>
