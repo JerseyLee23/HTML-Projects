@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.projects-grid::after {
+  content: "";
+  width: 500px;
+}
+
+nav {
+  position: fixed;
+  background-color: rgb(109, 87, 237);
+  width: 100vw;
+  height: 100px;
+  right: 0%;
+  top: 0%;
+  z-index: 2;
+}
+
+ul li {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    right: 0px;
+    float: right;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgb(100, 94, 94);
+}
+
+header {
+  
+  position: absolute;
+  left: 0%;
+  width: 100vw;
+  height: 20%;
+  background-color: rgb(80, 80, 138);
+  z-index: 1;
+  text-align: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#projects {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+P.text-head {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    justify-content: center;
+}
+
+P.text-body {
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 100vw;
+  padding: 20px 10px;
+}
+
+.projects img {
+  width: 450px;
+  height: 550px;
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  object-fit: cover;
+  gap: 30px;
+  border: 2px solid rgb(241, 234, 234);
+  border-radius: 50px;
+}
+
+
+
+.project-title {
+  text-align: center;
+  color: black;
+  font-size: 1.4em;
+}
+
+.profile-link {
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and {
+  
+}
